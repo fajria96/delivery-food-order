@@ -52,6 +52,10 @@
   height: 50px;
 }
 
+.add {
+  padding-top: 70px;
+}
+
 .number {
   position: absolute;
   top: -5px;
@@ -66,14 +70,6 @@
 .ingredients {
   display: flex;
   margin-bottom: 30px;
-}
-
-.option {
-  display: flex;
-  align-items: center;
-  margin-right: 10px;
-  font-size: 14px;
-  font-weight: 500;
 }
 
 .checkbox {
