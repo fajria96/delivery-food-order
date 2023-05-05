@@ -68,7 +68,6 @@ const Cart = () => {
                 ],
               })
               .then((orderId) => {
-                // Your code here after create the order
                 return orderId;
               });
           }}
