@@ -1,6 +1,7 @@
 .container {
   padding: 50px;
   display: flex;
+  height: 90vh;
 }
 
 .left {
@@ -62,6 +63,7 @@
   .container {
     flex-direction: column;
     padding: 20px;
+    height: auto;
   }
 
   .table {

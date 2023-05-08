@@ -1,6 +1,7 @@
 .container {
   padding: 50px;
   display: flex;
+  height: auto;
 }
 
 .item {
@@ -27,4 +28,29 @@
 
 .button:last-child {
   background-color: crimson;
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    height: auto;
+    text-align: center;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .table {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .trTitle {
+    font-size: 12px;
+  }
+
+  .addButton {
+    display: flex;
+    justify-content: center;
+  }
 }

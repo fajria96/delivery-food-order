@@ -11,6 +11,7 @@
 }
 
 .container {
+  margin-left: -50px;
   width: 100vw;
   height: 100vh;
   background-color: rgba(245, 240, 240, 0.52);
@@ -87,4 +88,19 @@
   padding: 14px 0;
   align-self: center;
   border-radius: 10px;
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+  }
 }

@@ -1,7 +1,6 @@
 import { useState } from "react";
 import styles from "../styles/Add.module.css";
 import axios from "axios";
-import { useRouter } from "next/router";
 
 const Add = ({ setClose }) => {
   const [file, setFile] = useState(null);
@@ -46,9 +45,9 @@ const Add = ({ setClose }) => {
         <span onClick={() => setClose(true)} className={styles.close}>
           X
         </span>
-        <h1>Add a new Sushi</h1>
+        <h1>Tambah Sushi</h1>
         <div className={styles.item}>
-          <label className={styles.label}>Choose an image</label>
+          <label className={styles.label}>Image</label>
           <input type="file" onChange={(e) => setFile(e.target.files[0])} />
         </div>
         <div className={styles.item}>

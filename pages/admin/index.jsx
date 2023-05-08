@@ -44,8 +44,10 @@ const Index = ({ orders, products }) => {
     <div className={styles.container}>
       <div className={styles.item}>
         <h1 className={styles.title}>Products</h1>{" "}
-        {<AddButton setClose={setClose} />}
-        {!close && <Add setClose={setClose} />}
+        <div className={styles.addButton}>
+          {<AddButton setClose={setClose} />}
+          {!close && <Add setClose={setClose} />}
+        </div>
         <table className={styles.table}>
           <tbody>
             <tr className={styles.trTitle}>

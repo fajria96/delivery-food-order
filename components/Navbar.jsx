@@ -24,13 +24,22 @@ const Navbar = () => {
       <div className={styles.item}>
         <ul className={styles.list}>
           <Link href="/" passHref>
-            <li className={styles.listItem}>HOME</li>
+            <li className={styles.listItem}>
+              {" "}
+              <h5>HOME</h5>
+            </li>
           </Link>
           <Link href="#order-here" passHref>
-            <li className={styles.listItem}>ORDER</li>
+            <li className={styles.listItem}>
+              {" "}
+              <h5>ORDER</h5>
+            </li>
           </Link>
           <Link href="#contact" passHref>
-            <li className={styles.listItem}>CONTACT</li>
+            <li className={styles.listItem}>
+              {" "}
+              <h5>CONTACT</h5>
+            </li>
           </Link>
         </ul>
       </div>
